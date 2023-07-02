@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71325fed-499e-4c81-a472-05e6880d0b87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events_users.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/models/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/repositories/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/repositories/EventsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/repositories/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/repositories/impl/EventsRepositoryFileImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/repositories/impl/UsersRepositoryFileImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/services/AppService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
-    </list>
+    <list default="true" id="71325fed-499e-4c81-a472-05e6880d0b87" name="Changes" comment="add first task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +81,14 @@
       <option name="presentableId" value="Default" />
       <updated>1688297767821</updated>
     </task>
+    <task id="LOCAL-00001" summary="add first task">
+      <created>1688312583881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312583881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add first task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add first task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
