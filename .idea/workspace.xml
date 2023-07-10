@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71325fed-499e-4c81-a472-05e6880d0b87" name="Changes" comment="add second task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/models/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/models/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/repositories/CoursesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/repositories/CoursesRepositoryJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/repositories/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/repositories/StudentsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/repositories/StudentsRepositoryJdbcImpl.java" afterDir="false" />
+    <list default="true" id="71325fed-499e-4c81-a472-05e6880d0b87" name="Changes" comment="add third task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/repositories/CoursesRepositorySpringJdbcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/repositories/StudentsRepositorySpringJdbcImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson2" />
+        <entry key="$PROJECT_DIR$" value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688634150559</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add third task">
+      <created>1688850449563</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688850449563</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +182,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add first task" />
     <MESSAGE value="add second task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add second task" />
+    <MESSAGE value="add third task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add third task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

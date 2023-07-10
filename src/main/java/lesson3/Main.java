@@ -5,9 +5,9 @@ import com.zaxxer.hikari.HikariDataSource;
 import lesson3.models.Course;
 import lesson3.models.Student;
 import lesson3.repositories.CoursesRepository;
-import lesson3.repositories.CoursesRepositoryJdbcImpl;
+import lesson3.repositories.CoursesRepositorySpringJdbcImpl;
 import lesson3.repositories.StudentsRepository;
-import lesson3.repositories.StudentsRepositoryJdbcImpl;
+import lesson3.repositories.StudentsRepositorySpringJdbcImpl;
 import lombok.SneakyThrows;
 
 import java.text.SimpleDateFormat;
@@ -24,7 +24,10 @@ public class Main {
         //STUDENT
         HikariDataSource dataSourceForStudent = new HikariDataSource(hikariConfig);
 
-        StudentsRepository studentsRepository = new StudentsRepositoryJdbcImpl(dataSourceForStudent);
+        //StudentsRepository studentsRepository = new StudentsRepositoryJdbcImpl(dataSourceForStudent);
+        StudentsRepository studentsRepository = new StudentsRepositorySpringJdbcImpl(dataSourceForStudent);
+
+
 
         Student student = Student.builder()
                 .firstName("Dariya")
@@ -38,7 +41,10 @@ public class Main {
         //COURSE
         HikariDataSource dataSourceForCourse = new HikariDataSource(hikariConfig);
 
-        CoursesRepository coursesRepository = new CoursesRepositoryJdbcImpl(dataSourceForCourse);
+        //CoursesRepository coursesRepository = new CoursesRepositoryJdbcImpl(dataSourceForCourse);
+        CoursesRepository coursesRepository = new CoursesRepositorySpringJdbcImpl(dataSourceForCourse);
+
+
 
         Course course = Course.builder()
                 .name("Java")
